@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="museumres.css">
+    <title>Museum Ticket Reservation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Museum Ticket Reservation</h1>
+        <form id="reservation-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Visit Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" required>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" placeholder="Enter any comments"></textarea>
+
+            <button type="submit">Reserve Tickets</button>
+        </form>
+    </div>
+</body>
+</html>
